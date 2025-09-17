@@ -316,7 +316,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensors.moto_sm8475:64 \
+    sensors.moto_sm8450:64 \
     android.hardware.sensors-service.multihal
 
 PRODUCT_COPY_FILES += \
@@ -358,7 +358,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.moto_sm8475
+    vendor.lineage.touch@1.0-service.moto_sm8450
 
 # Update engine
 PRODUCT_PACKAGES += \
@@ -414,4 +414,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/motorola/sm8475-common/sm8475-common-vendor.mk)
+$(call inherit-product, vendor/motorola/sm8450-common/sm8450-common-vendor.mk)
